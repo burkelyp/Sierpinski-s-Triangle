@@ -20,7 +20,7 @@ ypt1 = random.randint(0, y_constraint)
 x_points = [xpt1]
 y_points = [ypt1]
 
-for i in range(1000):
+for i in range(100000):
     pt = random.randint(0, 2)
     xx = np.mean([x[pt], x_points[-1]])
     yy = np.mean([y[pt], y_points[-1]])
